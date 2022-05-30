@@ -1,0 +1,36 @@
+.cart-button-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.link-cart-btn {
+    text-decoration: none;
+}
+
+.cart-button-content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 216px;
+    background-color: var(--blueSky);
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.cart-button-content:hover {
+    background-color: var(--blueSkyHover);
+}
+
+.cart-btn-cantidad {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    color: var(--lightYellow);
+}

@@ -1,0 +1,21 @@
+.snackbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.snackbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--greenSuccess);
+    color: var(--colorWhite);
+    font-weight: bold;
+    font-size: 14px;
+}

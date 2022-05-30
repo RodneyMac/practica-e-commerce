@@ -1,12 +1,7 @@
-:root {
-    --lightBlue: rgb(0, 100, 194);
-    --lightBlueHover: rgb(8, 73, 134);
-}
-
 .card-product-container {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 1rem 0;
     width: 100%;
     border: 1px solid black;
     padding: 10px;
