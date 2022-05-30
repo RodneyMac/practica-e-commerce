@@ -1,0 +1,35 @@
+:root {
+    --lightBlue: rgb(0, 100, 194);
+    --lightBlueHover: rgb(8, 73, 134);
+}
+
+.card-product-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-btn {
+    margin-top: 10px;
+    padding: 6px;
+    background-color: var(--lightBlue);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.card-btn:hover {
+    background-color: var(--lightBlueHover);
+}
+
+@media (min-width: 500px) {
+    .card-product-container {
+        max-width: 250px;
+    }
+}

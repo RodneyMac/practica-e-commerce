@@ -1,10 +1,15 @@
 import React from "react";
-import ProfileView from "./screen/ProfileView";
+import HomeView from "./views/HomeView";
+import CarritoView from './views/CarritoView';
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <>
-      <ProfileView/>
+      <Routes>
+        <Route path="/" element={<HomeView/>}/>
+        <Route path="/carrito" element={<CarritoView/>}/>
+      </Routes>
     </>
   );
 }
